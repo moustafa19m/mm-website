@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import {Container, Row, Col} from 'react-bootstrap';
 import "../css/Intro.css"
 
 
@@ -19,20 +20,26 @@ function MmInfo({ scrollDown }) {
 
 
     return (
-        <div className="infoCont">
-            <div className="row">
-                <img className='mmImage' src="../../mm_photo.png"/>
-                <div className="mmInfo">
-                    <h1 className="mmName">Moustafa Makhlouf</h1>
+        <Container className="infoCont" fluid="lg">
+            <Row className="row">
+                {/* <Col> */}
+                    <img className='mmImage mm-link' src="../../mm_photo_bg.JPG"/>
+                {/* </Col> */}
+                <Col className="mmInfo" xs="6">
+                    <text style={{color: "white"}}>Hi, my name is </text><br/>
+                    <h1 className="mmName yellowText"><strong>Moustafa Makhlouf</strong></h1>
+                    
                     <h3 className="cheesyTitle">I speak to computers in their language!</h3>
+                    <br/>
+
                     <p className="shortIntro">
-                        I have experience developing full-stack software, internal development tools, and machine learning models.
+                        I am a senior at <strong className="yellowText">Brown University</strong>, studying computer science Sc.B. I have experience developing full-stack software, internal development tools, and machine learning models.
                     </p>
-                </div>
-            </div>
+                </Col>
+            </Row>
             
             
-        </div>
+        </Container>
     );
   }
 
