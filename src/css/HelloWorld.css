@@ -1,0 +1,40 @@
+.helloWorld {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 10vh;
+    color: #D52941;
+    position: absolute;
+    top: 40%;
+    left:50%;
+    font-weight: 60;
+    /* transform: ; */
+    /* transition: all 0.5s; */
+    transform-origin: 50% 50%;
+}
+
+.helloWorldCont {
+    background-color: #FFF8E8;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.hello {
+    color: #990D35;
+}
+
+.goDown {
+    top: 90%;
+    /* left: 50%; */
+    position: absolute;
+    transition: all 0.5s;
+    transform-origin: 50% 50%;
+    height: 5vh;
+    width: 12vh;
+    margin: auto;
+}
+
+
+.goDown:hover {
+    transform: scale(1.4) translate(0, 10%); 
+}
