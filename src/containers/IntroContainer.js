@@ -1,4 +1,6 @@
 import React, { useRef } from 'react';
+import MmInfo from '../components/MmInfo';
+import MmInfor from "../components/MmInfo"
 import "../css/Intro.css"
 
 class IntroContainer extends React.Component {
@@ -30,7 +32,7 @@ class IntroContainer extends React.Component {
     console.log(this.state)
     return (
         <div className="introCont" ref={this.mainDiv}>
-                {this.props.children}
+          <MmInfo/>
         </div>
             
             

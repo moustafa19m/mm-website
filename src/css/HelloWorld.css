@@ -17,6 +17,7 @@
     text-align: center;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 .hello {
@@ -38,3 +39,7 @@
 .goDown:hover {
     transform: scale(1.4) translate(0, 10%); 
 }
+
+.mainView {
+    overflow: auto;
+  }

@@ -1,12 +1,14 @@
 
 import MainView from './containers/MainView'
-import "./css/HelloWorld.css"
+import "./App.css"
 
 function App() {
   return (
-    <MainView>
-      
-    </MainView>
+    <div className="appView">
+      <MainView>
+        
+      </MainView>
+    </div>
     
   );
 }
