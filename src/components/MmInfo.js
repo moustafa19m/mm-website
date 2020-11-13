@@ -23,7 +23,7 @@ function MmInfo({ scrollDown }) {
         <Container className="infoCont" fluid="lg">
             <Row className="row">
                 {/* <Col> */}
-                    <img className='mmImage mm-link' src="../../mm_photo_bg.JPG"/>
+                    <img className='mmImage mm-link' src="../../mm_photo_2.png"/>
                 {/* </Col> */}
                 <Col className="mmInfo" xs="6">
                     <text style={{color: "white"}}>Hi, my name is </text><br/>
